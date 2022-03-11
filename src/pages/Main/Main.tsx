@@ -57,7 +57,7 @@ const Main: React.FC<Props> = (props) => {
 	return(
 		<Container>
 			<p>{message}</p>
-			<Button onClick={() => navigate('/createGroup')}>New Group</Button>
+			<Button onClick={() => navigate('/createGroup')}>New SWF</Button>
 			{
 				groups.map((group: Group) => {
 					return (
