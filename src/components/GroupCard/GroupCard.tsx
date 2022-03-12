@@ -45,7 +45,7 @@ const GroupCard: React.FC<Props> = (props) => {
 	}
 
 	return (
-		<Container onClick={() => navigate(`/group/${props._id}`)}>
+		<Container>
 			<SubTitle>{message}</SubTitle>
 			<Paragraph>{props.description}</Paragraph>
 			<Title>Members</Title>
